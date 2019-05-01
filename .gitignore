@@ -1,0 +1,8 @@
+*
+!app.yaml
+!php.ini
+!config.inc.php
+!README.md
+!LICENSE
+!.travis.yml
+!.git*
