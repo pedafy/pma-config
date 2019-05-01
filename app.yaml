@@ -10,6 +10,13 @@ service: phpmyadmin
 runtime: php55
 api_version: 1
 
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
 handlers:
   - url: /(.+\.(ico|jpg|png|gif))$
     static_files: \1
